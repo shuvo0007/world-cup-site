@@ -1,5 +1,6 @@
 body{
   font-family: 'Stint Ultra Condensed', cursive;
+  margin: 0;
 }
 
 a{
@@ -73,7 +74,7 @@ p{
 
 .mid-banner{
   padding: 50px 0px 0px 165px;
-  height: 800px;
+  height: 1600px;
 }
 
 .mid-div{
@@ -143,4 +144,50 @@ padding-top: 30px;
 
 .time-div{
   display: flex;
+}
+
+/* -----------mid section  -------------------- */
+
+.footer-section{
+  background-color: black;
+  text-align: center;
+
+}
+
+.goal-div{
+  text-align: center;
+  padding: 50px;
+}
+
+.hr-div{
+  padding-left: 200px;
+  width: 1500px;
+  
+}
+
+hr{
+  height: 1px;background-color: rgba(255, 255, 255, 0.288);border: none;
+}
+
+.contact-div{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  padding-left: 400px;
+  width: 1000px;
+}
+
+.contact-button{
+  color: white;
+  font-size: 20px;
+}
+
+.social-media{
+  padding-bottom: 30px;
+}
+
+.media-button{
+  font-size: 30px;
+  padding: 10px;
+  color: blue;
 }
