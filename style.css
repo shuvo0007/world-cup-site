@@ -1,11 +1,14 @@
 body{
   font-family: 'Stint Ultra Condensed', cursive;
   margin: 0;
+  height: auto;
 }
 
 a{
   text-decoration: none;
 }
+
+/* $$$$$$$$ For PC $$$$$$$$$$$$$$$ */
 
 /* -----------1st section  -------------------- */
 .top-banner{
@@ -69,10 +72,6 @@ p{
 .img-div{
   padding-left: 90px;
   padding-top: 4px;
-}
-
-@media screen and (max-width: 768px) {
-  
 }
 
 /* -----------mid section  -------------------- */
@@ -155,8 +154,6 @@ padding-top: 30px;
   display: none;
 }
 
-
-
 /* -----------footer section  -------------------- */
 
 .footer-section{
@@ -203,10 +200,6 @@ hr{
   color: blue;
 }
 
-
-
-
-
 /* -----------index2 page  -------------------- */
 
 .index2-blog-div{
@@ -217,14 +210,12 @@ hr{
   border: 1px solid rgba(0, 0, 0, 0.103);
   border-radius: 15px;
   height: 250px;
-  /* padding-top: 40px; */
   padding: 40px 20px;
 
 }
 
 .flag-div{
-  display: flex
-  ;
+  display: flex;
   justify-content: space-around;
   margin-top: 30px;
 }
@@ -249,10 +240,13 @@ hr{
 .match-time{
   margin:30px 0px 0px 0px;
 }
+/* $$$$$$$$ For PC $$$$$$$$$$$$$$$ */
 
 /* ----------------responsiveness----------------------------- */
 
 @media screen and (max-width: 768px) {
+
+  /* $$$$$$$$ For Tablet Device $$$$$$$$$$$$$$$ */
   /* --------------------top section------------------- */
   .top-banner{
     padding: 2%;
@@ -339,7 +333,7 @@ hr{
     padding: 40px 0px;
   }
 
-  /* ----------------------footer------------------- */
+  /* ---------------------footer------------------- */
 
   .footer-section{
    display: flex;
@@ -372,7 +366,107 @@ hr{
   }
 
   .social-media{
-    padding: 20px;
+    padding: 20px 20px 20px 50px;
+  }
+
+/* ----------------------2nd page----------------- */
+
+.index2-right-div{
+  padding: 0;
+  margin: 0;
+  width: 98%;
+}
+
+/* $$$$$$$$ For Tablet Device END $$$$$$$$$$$$$$$ */
+/* ************************************************ */
+
+
+}
+
+/* $$$$$$$$ For Mobile Phone $$$$$$$$$$$$$$$ */
+
+@media screen and (max-width: 600px) {
+
+  /* ----------------------1st Section----------------- */
+
+  .top-banner{
+    height: 800px;
+    
+  }
+
+  .top-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0px 5px;
+  }
+
+  .half-width{
+    width: 100%;
+  }
+
+  .half-width h1{
+    margin-left: 50px;
+    width: 350px;
+  }
+
+  .half-width p{
+    width: 400px;
+    margin-left: 35px;
+  }
+
+  .live-button{
+    /* margin-top: 100px; */
+    margin-left: -110px;
+  }
+
+  .top-banner-img{
+    margin-left: 50px;
+    width: 60%;
+  }
+
+  /* ----------------------mid Section----------------- */
+
+  .left-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+  }
+
+  .right-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .view-all-div{
+    display: none;
+  }
+
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .goal-div{
+    margin: 0;
+    padding: 0px 0px 0px 150px;
+  }
+
+  .contact-div{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  .contact-button{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.377);
   }
 
 
