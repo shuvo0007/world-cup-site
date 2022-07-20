@@ -11,6 +11,7 @@ a{
 .top-banner{
   padding: 50px 0px 0px 165px;
   height: 800px;
+  
 }
 
 .top-div{
@@ -47,7 +48,7 @@ p{
   border-radius: 5px;
   padding: 20px 30px 20px 30px;
   font-size: larger;
-  transition: .2s;
+  transition: .1s;
 }
 
 .live-button:hover{
@@ -70,11 +71,15 @@ p{
   padding-top: 4px;
 }
 
+@media screen and (max-width: 768px) {
+  
+}
+
 /* -----------mid section  -------------------- */
 
 .mid-banner{
   padding: 50px 0px 0px 165px;
-  height: 1600px;
+  height: auto;
 }
 
 .mid-div{
@@ -146,7 +151,13 @@ padding-top: 30px;
   display: flex;
 }
 
-/* -----------mid section  -------------------- */
+.view-all-div{
+  display: none;
+}
+
+
+
+/* -----------footer section  -------------------- */
 
 .footer-section{
   background-color: black;
@@ -190,4 +201,179 @@ hr{
   font-size: 30px;
   padding: 10px;
   color: blue;
+}
+
+
+
+
+
+/* -----------index2 page  -------------------- */
+
+.index2-blog-div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px 0px 25px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.103);
+  border-radius: 15px;
+  height: 250px;
+  /* padding-top: 40px; */
+  padding: 40px 20px;
+
+}
+
+.flag-div{
+  display: flex
+  ;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.VS-p{
+  padding:20px 0px 0px 0px;
+  margin: 0%;
+  font-weight: 900;
+}
+
+.VS-text{
+  text-align: center;
+  padding: 0px ;
+}
+
+.match-name{
+  font-size: 25px;
+  font-weight: 900;
+  margin:50px 0px 0px 0px;
+}
+
+.match-time{
+  margin:30px 0px 0px 0px;
+}
+
+/* ----------------responsiveness----------------------------- */
+
+@media screen and (max-width: 768px) {
+  /* --------------------top section------------------- */
+  .top-banner{
+    padding: 2%;
+    height: 500px;
+  }
+  .top-div{
+    padding: 0%;
+    width: 100%;
+    height: 450px;
+  }
+
+  .half-width{
+    width: 40%;
+    padding: 10px 10px 10px 60px;
+  }
+
+  h1{
+    width: 300px;
+    font-size: 35px;
+  }
+
+  p{
+    font-size: 15px;
+    padding: 0%;
+    margin: 10px 0px 40px 0px;
+  }
+
+  .img-div{
+    padding: 77px 0px 0px 0px;
+  }
+
+  .top-banner-img{
+    width: 120%;
+  }
+  
+  /* -------------------mid section--------------- */
+  .mid-banner{
+    width: 100%;
+    padding: 0% 2% 0% 2%;
+    margin: 0;
+    padding: 0;
+  }
+  .mid-div{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+  }
+
+  .left-div{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 0%;
+  }
+
+  .mid-button{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    font-size: 20px;
+  }
+
+  .right-div{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    
+  }
+
+  .blog-div{
+    margin: 10px 10px;
+  }
+
+  .fa-message{
+    margin-left: 50px;
+  }
+
+  .hidden-class-tablet{
+    display: none;
+  }
+
+  .view-all-div{
+    display: block;
+    text-align: center;
+    padding: 40px 0px;
+  }
+
+  /* ----------------------footer------------------- */
+
+  .footer-section{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .goal-div{
+    padding-left: 250px;
+    text-align: center;
+  }
+
+  .hr-div{
+    padding: 0% 10%;
+    width: 80%;
+  }
+
+  .contact-div{
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 150px;
+    width: 500px;
+  }
+
+  .contact-button{
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  .social-media{
+    padding: 20px;
+  }
+
+
 }
