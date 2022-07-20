@@ -55,9 +55,8 @@ p{
 }
 
 .live-button:hover{
-  background-color: red;
+  background-color: green;
   border-radius: 10px;
-  
 }
 
 .angle-icon{
@@ -104,6 +103,12 @@ p{
   text-align: center;
   background-color: white;
   border-radius: 10px;
+  transition: .4s;
+}
+
+.mid-button:hover{ 
+  background-color: rgb(151, 80, 218);
+  color: aliceblue;
 }
 
 .selected-button{
@@ -137,6 +142,13 @@ padding-top: 30px;
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px 20px;
+  transition: .3s;
+}
+
+.transfer-button:hover{
+  color: white;
+  background-color: red;
+  border: 1px solid blue;
 }
 
 .transfer-text{
@@ -186,7 +198,13 @@ hr{
 }
 
 .contact-button{
-  color: white;
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 20px;
+  transition: .3s;
+}
+
+.contact-button:hover{
+  color: rgb(255, 255, 255);
   font-size: 20px;
 }
 
@@ -197,7 +215,12 @@ hr{
 .media-button{
   font-size: 30px;
   padding: 10px;
-  color: blue;
+  color: rgba(225, 0, 255, 0.349);
+  transition: .5s;
+}
+
+.media-button:hover{
+  color: blueviolet;
 }
 
 /* -----------index2 page  -------------------- */
